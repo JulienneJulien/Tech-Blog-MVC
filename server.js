@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
-const helpers = require('.Develop/utils/helpers');
+const helpers = require('./Develop/utils/helpers');
 
 const sequelize = require('./Develop/config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
@@ -33,8 +33,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(require('./Develop/controllers'));
+// app.use(require('./Develop/controllers'));
+// add your controllers here!!!
 // sync sequelize models to the database, then turn on the server
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('App listening on port ${PORT}!`'));
+  app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 });
