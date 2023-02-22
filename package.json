@@ -4,7 +4,9 @@
   "description": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://mit-license.org/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,8 @@
     "express-session": "^1.17.3",
     "mysql2": "^3.1.2",
     "sequelize": "^6.28.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
