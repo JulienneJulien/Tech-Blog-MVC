@@ -51,13 +51,13 @@ router.get('/', (req, res) => {
   //  create user
 router.post("/", (req, res) => {
     User.create({
-      username: req.body.user_name,
+      username: req.body.username,
       password: req.body.password
     })
     .then(dbUserData => {
       req.session.save(() => {
         req.session.userId = dbUserData.id;
-        req.session.username = dbUserData.user_name;
+        req.session.username = dbUserData.username;
         req.session.loggedIn = true;
   
         res.json(dbUserData);
@@ -74,7 +74,7 @@ router.post('/login', async (req, res) => {
     try {
       const user = await User.findOne({
         where: {
-          user_name: req.body.user_name,
+          username: req.body.username,
         },
       });
   
