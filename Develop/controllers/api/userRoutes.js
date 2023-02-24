@@ -27,7 +27,7 @@ router.get('/', (req, res) => {
         },
         {
           model: Comment,
-          attributes: ['id', 'comment_text', 'createdAt'],
+          attributes: ['id', 'commentText', 'createdAt'],
           include: {
             model: Post,
             attributes: ['title', 'postId']
@@ -90,7 +90,7 @@ router.post('/login', (req, res) => {
     }
 
     req.session.save(() => {
-      req.session.user_id = dbUserData.id;
+      req.session.userId = dbUserData.id;
       req.session.username = dbUserData.username;
       req.session.loggedIn = true;
   

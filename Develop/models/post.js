@@ -16,14 +16,14 @@ Post.init(
           type: DataTypes.STRING,
           allowNull: false
         },
-        post_text: {
+        postText: {
           type: DataTypes.STRING,
           allowNull: false,
           validate: {
             len: [1]
           }
         },
-        user_id: {
+        userId: {
           type: DataTypes.INTEGER,
           references: {
             model: 'user',

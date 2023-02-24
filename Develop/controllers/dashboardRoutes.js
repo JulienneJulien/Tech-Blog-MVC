@@ -7,7 +7,7 @@ const sequelize = require('../config/connection');
 router.get('/', withAuth, (req, res) => {
   Post.findAll({
     where: {
-      user_id: req.session.user_id
+      userId: req.session.userId
     },
     attributes: [
       'id',
@@ -40,12 +40,6 @@ router.get('/', withAuth, (req, res) => {
     });
 });
 
-// Get new post for user
-router.get('/new', withAuth, async(req,res)=>{
-    res.render('new-post', {
-        layout:'dashboard', 
-    });
-});
 
 // Get edit post for user
 router.get('/edit/:id', withAuth, (req, res) => {

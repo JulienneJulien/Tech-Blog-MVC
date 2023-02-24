@@ -11,9 +11,9 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // TO TEST LIVE SERVER PORT ROUTE 
-app.get("/", function (req, res) {
-  res.send("HEY TESTING LIVE PORT");
-});
+// app.get("/", function (req, res) {
+//   res.send("HEY TESTING LIVE PORT");
+// });
 
 // Set up Handlebars.js engine with custom helpers
 const hbs = exphbs.create({ helpers });
@@ -39,8 +39,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// app.use(require('./Develop/controllers'));
-// add your controllers here!!!
+app.use(require('./Develop/controllers'));
+
 // sync sequelize models to the database, then turn on the server
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
