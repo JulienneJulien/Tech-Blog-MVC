@@ -95,7 +95,7 @@ link will go here!!!
   
 
 ## Usage
-***Please ensure you have followed above steps to install package first!***
+***Please ensure you have followed above steps to install packages first!***
 - Access your working directory project folder and create your **.env** file. Copy and paste the code below to connect to your schema from the MySQL shell
  `mysql -u root -p` 
 `source db/schema.sql` 
@@ -105,8 +105,9 @@ link will go here!!!
 - Once your connected to your local ran server, navigate to http://localhost:3001/ in your browser. You can interact with the blog site from the homepage.
 
 ***See the images and video below for demo.***
+-In these screenshots, you will see how the page is rendered and how the functionality is demonstrated.
 
-ADD IMAGES/VID HERE
+ADD IMAGES HERE
 
 
 ## Contributing
@@ -115,7 +116,7 @@ ADD IMAGES/VID HERE
 <br>*Contributor Covenant encourages contributions of all kinds from people around the world. This makes the practice of open source as much social as it is technical.*
 
 ## Tests
-*No testing are available at this time.*
+*The application can be tested locally or via the Heroku Deployment.*
 
 ## License
     This application is licensed under the MIT license.
