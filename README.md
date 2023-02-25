@@ -97,7 +97,8 @@ link will go here!!!
 ## Usage
 ***Please ensure you have followed above steps to install packages first!***
 - Access your working directory project folder and create your **.env** file. Copy and paste the code below to connect to your schema from the MySQL shell
- `mysql -u root -p` 
+
+`mysql -u root -p` 
 `source db/schema.sql` 
 - Once done enter quit or exit to terminate the sql session. Keyboard shortcut CTRL+C will bring you back to your Terminal/Shell/Bash and run the following code. 
 
@@ -105,7 +106,7 @@ link will go here!!!
 - Once your connected to your local ran server, navigate to http://localhost:3001/ in your browser. You can interact with the blog site from the homepage.
 
 ***See the images and video below for demo.***
--In these screenshots, you will see how the page is rendered and how the functionality is demonstrated.
+- In these screenshots, you will see how the page is rendered and how the functionality is demonstrated.
 
 ADD IMAGES HERE
 
