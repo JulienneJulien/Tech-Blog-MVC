@@ -7,18 +7,18 @@ const sequelize = require('../config/connection');
 router.get('/', withAuth, (req, res) => {
   Post.findAll({
     where: {
-      userId: req.session.userId
+      user_id: req.session.user_id
     },
     attributes: [
       'id',
-      'postText',
+      'post_text',
       'title',
-      'createdAt'
+      'created_at'
     ],
     include: [
       {
         model: Comment,
-        attributes: ['id', 'commentText', 'postId', 'userId', 'createdAt'],
+        attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
         include: {
           model: User,
           attributes: ['username']
@@ -46,14 +46,14 @@ router.get('/edit/:id', withAuth, (req, res) => {
   Post.findByPk(req.params.id, {
     attributes: [
       'id',
-      'postText',
+      'post_text',
       'title',
-      'createdAt'
+      'created_at'
     ],
     include: [
       {
         model: Comment,
-        attributes: ['id', 'commentText', 'postId', 'userId', 'createdAt'],
+        attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
         include: {
           model: User,
           attributes: ['username']
