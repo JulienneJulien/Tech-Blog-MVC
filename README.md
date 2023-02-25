@@ -5,6 +5,7 @@
 ## Table of Content
 - [Tech-Blog-MVC](#tech-blog-mvc)
   - [Table of Content](#table-of-content)
+  - [Deployment](#deployment)
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -12,6 +13,11 @@
   - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
+
+
+## Deployment
+link will go here!!!
+
 
 ## Description
 *Build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This application will will follow the **MVC paradigm** in its architectural structure, using ***Handlebars.js*** as the templating language, ***Sequelize*** as the ORM, and the ***express-session npm package*** for authentication.* 
@@ -90,7 +96,13 @@
 
 ## Usage
 ***Please ensure you have followed above steps to install package first!***
-- Access 
+- Access your working directory project folder and create your **.env** file. Copy and paste the code below to connect to your schema from the MySQL shell
+ `mysql -u root -p` 
+`source db/schema.sql` 
+- Once done enter quit or exit to terminate the sql session. Keyboard shortcut CTRL+C will bring you back to your Terminal/Shell/Bash and run the following code. 
+
+`npm run start`
+- Once your connected to your local ran server, navigate to http://localhost:3001/ in your browser. You can interact with the blog site from the homepage.
 
 ***See the images and video below for demo.***
 
