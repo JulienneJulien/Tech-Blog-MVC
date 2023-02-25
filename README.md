@@ -83,7 +83,9 @@
 >THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
 ## Installation
-***Please install the package locally to your working project directory.***
+***Please install the package locally to your working project directory.*** 
+- On your preferred code editor, use the command line to run `npm i`
+- The latest version of the required packages will be installed.
   
 
 ## Usage
