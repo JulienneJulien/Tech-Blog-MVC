@@ -1,0 +1,125 @@
+/* CSS variables were created at the root of the document to be used throughout the style sheet */ 
+:root {
+    --seagreen: rgb(8, 56, 56);
+    --lightgray: lightgray;
+    --beige: rgba(197, 204, 167, 0.877);
+    --regblack:black;
+    --hovercolor: rgba(58, 9, 87, 0.678);
+}
+  
+  html {
+    height: 100%;
+    box-sizing: border-box;
+   
+  }
+
+  body {
+    position: relative;
+    margin:0;
+    min-height: 100%;
+    padding-bottom: 6rem;
+    box-sizing: inherit;
+    background-color:var(--lightgray);
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  
+  main {
+    width: 100%;
+    margin: auto;
+    padding-top: 18px;
+    padding: 1rem;
+  }
+
+  /* .wrapper {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    margin: 0;
+  } */
+
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(131, 52, 52);
+  }
+
+
+ #logout {
+    margin-left: 2rem;
+ }
+
+  a {
+    text-decoration: none;
+    color: var(--seagreen);
+    font-weight: bold;
+    transition: color .1s;
+  }
+  
+  a:hover {
+    color: var(--hovercolor)
+  }
+  
+  .btn, button {
+    background-color: var(--seagreen);
+    border: 1;
+    color: white;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  button:hover {
+    background-color: var(--hovercolor);
+  }
+  h2 {
+    color: var(--seagreen);
+  }
+
+  p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 0;
+    color: var(--seagreen);
+    overflow: auto;
+  }
+
+  .post {
+    line-height: 3rem;
+  }
+  .edit-post-form {
+    margin-bottom: 5%;
+  }
+
+ label {
+    display:block;
+    margin-left: 1rem;
+    font-size: large;
+  }
+
+  textarea, input {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: 3px solid var(--seagreen);
+  }
+  
+  textarea {
+    min-width: 40%;
+    min-height: 100px;
+    padding-top: 2rem;
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: var(--seagreen);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    color: rgb(131, 52, 52);
+  }
