@@ -106,7 +106,7 @@ link will go here!!!
 - Once you are connected to your local ran server, navigate to http://localhost:3001/ in your browser. You can interact with the blog site from the homepage.
 
 ***See the images and video below for demo.***
-*In these screenshots, you will see how the page is rendered and how the functionality is demonstrated.*
+<br>*In these screenshots, you will see how the page is rendered and how the functionality is demonstrated.*
 
 ADD IMAGES HERE
 
