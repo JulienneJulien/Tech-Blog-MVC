@@ -9,7 +9,7 @@ const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
-const PORT = process.env.PORT ||4744;
+const PORT = process.env.PORT ||3001;
 
 // TO TEST LIVE SERVER PORT ROUTE 
 // app.get("/", function (req, res) {
