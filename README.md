@@ -5,6 +5,7 @@
 ## Table of Content
 - [Tech-Blog-MVC](#tech-blog-mvc)
   - [Table of Content](#table-of-content)
+  - [Deployment](#deployment)
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -12,6 +13,11 @@
   - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
+
+
+## Deployment
+link will go here!!!
+
 
 ## Description
 *Build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This application will will follow the **MVC paradigm** in its architectural structure, using ***Handlebars.js*** as the templating language, ***Sequelize*** as the ORM, and the ***express-session npm package*** for authentication.* 
@@ -49,15 +55,19 @@
 >WHEN I click on the homepage option in the navigation
 >
 >THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created
+>
 >WHEN I click on an existing blog post
 >
 >THEN I am presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment
+>
 >WHEN I enter a comment and click on the submit button while signed in
 >
 >THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
+>
 >WHEN I click on the dashboard option in the navigation
 >
 >THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post
+>
 >WHEN I click on the button to add a new blog post
 >
 >THEN I am prompted to enter both a title and contents for my blog post
@@ -79,17 +89,30 @@
 >THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
 ## Installation
-***Please install the package locally to your working project directory.***
+***Please install the package locally to your working project directory.*** 
+- On your preferred code editor, use the command line to run `npm i`
+- The latest version of the required packages will be installed.
   
 
 ## Usage
-***Please ensure you have followed above steps to install package first!***
-- Access 
+***Please ensure you have followed above steps to install packages first!***
+- Access your working directory project folder and create your **.env** file. Copy and paste the code below to connect to your schema from the MySQL shell
+
+`mysql -u root -p` 
+`source db/schema.sql` 
+- Once done enter quit or exit to terminate the sql session. Keyboard shortcut CTRL+C will bring you back to your Terminal/Shell/Bash and run the following code. 
+
+`npm run start`
+- Once you are connected to your local ran server, navigate to http://localhost:3001/ in your browser. You can interact with the blog site from the homepage.
 
 ***See the images and video below for demo.***
+<br>*In these screenshots, you will see how the page is rendered and how the functionality is demonstrated.*
 
-ADD IMAGES/VID HERE
+![screencapture-localhost-3001-login-2023-02-25-02_02_41](https://user-images.githubusercontent.com/117052258/221750809-3ccf0cf1-7189-4fac-8710-9f32abeb8718.png)
 
+![screencapture-localhost-3001-dashboard-2023-02-25-02_02_13](https://user-images.githubusercontent.com/117052258/221750772-043a1048-6b06-4fe9-bc06-0be8ef1d2fe6.png)
+
+![screencapture-localhost-3001-2023-02-25-02_01_28](https://user-images.githubusercontent.com/117052258/221750698-b3c3c407-8586-4489-b0b8-41e00cd6a6b1.png)
 
 ## Contributing
 
@@ -97,7 +120,7 @@ ADD IMAGES/VID HERE
 <br>*Contributor Covenant encourages contributions of all kinds from people around the world. This makes the practice of open source as much social as it is technical.*
 
 ## Tests
-*No testing are available at this time.*
+*The application can be tested locally or via the Heroku Deployment.*
 
 ## License
     This application is licensed under the MIT license.
