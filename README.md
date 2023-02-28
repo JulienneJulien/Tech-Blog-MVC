@@ -108,8 +108,11 @@ link will go here!!!
 ***See the images and video below for demo.***
 <br>*In these screenshots, you will see how the page is rendered and how the functionality is demonstrated.*
 
-ADD IMAGES HERE
+![screencapture-localhost-3001-login-2023-02-25-02_02_41](https://user-images.githubusercontent.com/117052258/221750809-3ccf0cf1-7189-4fac-8710-9f32abeb8718.png)
 
+![screencapture-localhost-3001-dashboard-2023-02-25-02_02_13](https://user-images.githubusercontent.com/117052258/221750772-043a1048-6b06-4fe9-bc06-0be8ef1d2fe6.png)
+
+![screencapture-localhost-3001-2023-02-25-02_01_28](https://user-images.githubusercontent.com/117052258/221750698-b3c3c407-8586-4489-b0b8-41e00cd6a6b1.png)
 
 ## Contributing
 
