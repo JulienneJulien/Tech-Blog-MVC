@@ -125,7 +125,12 @@ https://my-techmvc-blog.herokuapp.com/
     This application is licensed under the MIT license.
 
 ## Questions
-*Please contact me below!*
-- Github: [JulienneJulien](https://github.com/JulienneJulien)
-- Email: JulienneJulien15@gmail.com 
 
+**Please contact me below!**
+
+<img src="https://avatars.githubusercontent.com/u/117052258?v=4" width="200" height="200" />
+
+- **Github:** [JulienneJulien](https://github.com/JulienneJulien)
+- **Email:** JulienneJulien15@gmail.com 
+- **Portfolio:** https://juliennejulien.github.io/portfolio/
+- **LinkedIn:** https://www.linkedin.com/in/julienne-julien-044971255/
