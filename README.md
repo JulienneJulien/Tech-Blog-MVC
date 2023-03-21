@@ -86,7 +86,7 @@ https://my-techmvc-blog.herokuapp.com/
 >WHEN I am idle on the site for more than a set time
 >
 >THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
-
+[🔼 Back to top](#Table of Content)
 ## Installation
 ***Please install the package locally to your working project directory.*** 
 - On your preferred code editor, use the command line to run `npm i`
@@ -112,13 +112,13 @@ https://my-techmvc-blog.herokuapp.com/
 ![screencapture-localhost-3001-dashboard-2023-02-25-02_02_13](https://user-images.githubusercontent.com/117052258/221750772-043a1048-6b06-4fe9-bc06-0be8ef1d2fe6.png)
 
 ![screencapture-localhost-3001-2023-02-25-02_01_28](https://user-images.githubusercontent.com/117052258/221750698-b3c3c407-8586-4489-b0b8-41e00cd6a6b1.png)
-
+[🔼 Back to top](#Table of Content)
 ## Contributing
 
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/)
 <br>*Contributor Covenant encourages contributions of all kinds from people around the world. This makes the practice of open source as much social as it is technical.*
-
+[🔼 Back to top](#Table of Content)
 ## Tests
 *The application can be tested locally or via the Heroku Deployment.*
 
@@ -135,3 +135,4 @@ https://my-techmvc-blog.herokuapp.com/
 - **Email:** JulienneJulien15@gmail.com 
 - **Portfolio:** https://juliennejulien.github.io/portfolio/
 - **LinkedIn:** https://www.linkedin.com/in/julienne-julien-044971255/
+[🔼 Back to top](#Table of Content)
